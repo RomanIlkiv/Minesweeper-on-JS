@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Saper</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Saper</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <section id="main">
+            <header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 hidden-xs" id="head_img" src="img/58377436.jpg" alt="Saper">
+                        <img class="col-xs-8 col-xs-offset-2 head_img_xs visible-xs" id="head_img_xs" src="img/58377436.jpg" alt="Saper">
+                    </div>    
+                </div>  
+            </header>
+      </section>
+      <section id="saper">
+          <div class="container-fluid">
+            <div class="row">
+                <div id="game">
+					<a href="index.html" id="new_game">Start game</span></a>
+                    <p class="over"></p>
+                    <div id="table_container">
+<!--
+                        <table id="back_net">
+                            <tr>
+                                <td id="1" class="back_td 1"></td>
+                                <td id="2" class="back_td 2"></td>
+                                <td id="3" class="back_td 3"></td>
+                                <td id="4" class="back_td 4"></td>
+                                <td id="5" class="back_td 5"></td>
+                                <td id="6" class="back_td 6"></td>
+                                <td id="7" class="back_td 7"></td>
+                                <td id="8" class="back_td 8"></td>
+                                <td id="9" class="back_td 9"></td>
+                            </tr>
+                            <tr>
+                                <td id="10" class="back_td 10"></td>
+                                <td id="11" class="back_td 11"></td>
+                                <td id="12" class="back_td 12"></td>
+                                <td id="13" class="back_td 13"></td>
+                                <td id="14" class="back_td 14"></td>
+                                <td id="15" class="back_td 15"></td>
+                                <td id="16" class="back_td 16"></td>
+                                <td id="17" class="back_td 17"></td>
+                                <td id="18" class="back_td 18"></td>
+                            </tr>
+                            <tr>
+                                <td id="19" class="back_td 19"></td>
+                                <td id="20" class="back_td 20"></td>
+                                <td id="21" class="back_td 21"></td>
+                                <td id="22" class="back_td 22"></td>
+                                <td id="23" class="back_td 23"></td>
+                                <td id="24" class="back_td 24"></td>
+                                <td id="25" class="back_td 25"></td>
+                                <td id="26" class="back_td 26"></td>
+                                <td id="27" class="back_td 27"></td>
+                            </tr>
+                            <tr>
+                                <td id="28" class="back_td 28"></td>
+                                <td id="29" class="back_td 29"></td>
+                                <td id="30" class="back_td 30"></td>
+                                <td id="31" class="back_td 31"></td>
+                                <td id="32" class="back_td 32"></td>
+                                <td id="33" class="back_td 33"></td>
+                                <td id="34" class="back_td 34"></td>
+                                <td id="35" class="back_td 35"></td>
+                                <td id="36" class="back_td 36"></td>
+                            </tr>
+                            <tr>
+                                <td id="37" class="back_td 37"></td>
+                                <td id="38" class="back_td 38"></td>
+                                <td id="39" class="back_td 39"></td>
+                                <td id="40" class="back_td 40"></td>
+                                <td id="41" class="back_td 41"></td>
+                                <td id="42" class="back_td 42"></td>
+                                <td id="43" class="back_td 43"></td>
+                                <td id="44" class="back_td 44"></td>
+                                <td id="45" class="back_td 45"></td>
+                            </tr>
+                            <tr>
+                                <td id="46" class="back_td 46"></td>
+                                <td id="47" class="back_td 47"></td>
+                                <td id="48" class="back_td 48"></td>
+                                <td id="49" class="back_td 49"></td>
+                                <td id="50" class="back_td 50"></td>
+                                <td id="51" class="back_td 51"></td>
+                                <td id="52" class="back_td 52"></td>
+                                <td id="53" class="back_td 53"></td>
+                                <td id="54" class="back_td 54"></td>
+                            </tr>
+                            <tr>
+                                <td id="55" class="back_td 55"></td>
+                                <td id="56" class="back_td 56"></td>
+                                <td id="57" class="back_td 57"></td>
+                                <td id="58" class="back_td 58"></td>
+                                <td id="59" class="back_td 59"></td>
+                                <td id="60" class="back_td 60"></td>
+                                <td id="61" class="back_td 61"></td>
+                                <td id="62" class="back_td 62"></td>
+                                <td id="63" class="back_td 63"></td>
+                            </tr>
+                            <tr>
+                                <td id="64" class="back_td 64"></td>
+                                <td id="65" class="back_td 65"></td>
+                                <td id="66" class="back_td 66"></td>
+                                <td id="67" class="back_td 67"></td>
+                                <td id="68" class="back_td 68"></td>
+                                <td id="69" class="back_td 69"></td>
+                                <td id="70" class="back_td 70"></td>
+                                <td id="71" class="back_td 71"></td>
+                                <td id="72" class="back_td 72"></td>
+                            </tr>
+                            <tr>
+                                <td id="73" class="back_td 73"></td>
+                                <td id="74" class="back_td 74"></td>
+                                <td id="75" class="back_td 75"></td>
+                                <td id="76" class="back_td 76"></td>
+                                <td id="77" class="back_td 77"></td>
+                                <td id="78" class="back_td 78"></td>
+                                <td id="79" class="back_td 79"></td>
+                                <td id="80" class="back_td 80"></td>
+                                <td id="81" class="back_td 81"></td>
+                            </tr>
+                            
+                        </table>
+                        <table id="net">
+                            <tr>
+                                <td class="td 1"></span></td>
+                                <td class="td 2"></span></td>
+                                <td class="td 3"></span></td>
+                                <td class="td 4"></span></td>
+                                <td class="td 5"></span></td>
+                                <td class="td 6"></span></td>
+                                <td class="td 7"></span></td>
+                                <td class="td 8"></span></td>
+                                <td class="td 9"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="td 10"></span></td>
+                                <td class="td 11"></span></td>
+                                <td class="td 12"></span></td>
+                                <td class="td 13"></span></td>
+                                <td class="td 14"></span></td>
+                                <td class="td 15"></span></td>
+                                <td class="td 16"></span></td>
+                                <td class="td 17"></span></td>
+                                <td class="td 18"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="td 19"></td>
+                                <td class="td 20"></td>
+                                <td class="td 21"></td>
+                                <td class="td 22"></td>
+                                <td class="td 23"></td>
+                                <td class="td 24"></td>
+                                <td class="td 25"></td>
+                                <td class="td 26"></td>
+                                <td class="td 27"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 28"></td>
+                                <td class="td 29"></td>
+                                <td class="td 30"></td>
+                                <td class="td 31"></td>
+                                <td class="td 32"></td>
+                                <td class="td 33"></td>
+                                <td class="td 34"></td>
+                                <td class="td 35"></td>
+                                <td class="td 36"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 37"></td>
+                                <td class="td 38"></td>
+                                <td class="td 39"></td>
+                                <td class="td 40"></td>
+                                <td class="td 41"></td>
+                                <td class="td 42"></td>
+                                <td class="td 43"></td>
+                                <td class="td 44"></td>
+                                <td class="td 45"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 46"></td>
+                                <td class="td 47"></td>
+                                <td class="td 48"></td>
+                                <td class="td 49"></td>
+                                <td class="td 50"></td>
+                                <td class="td 51"></td>
+                                <td class="td 52"></td>
+                                <td class="td 53"></td>
+                                <td class="td 54"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 55"></td>
+                                <td class="td 56"></td>
+                                <td class="td 57"></td>
+                                <td class="td 58"></td>
+                                <td class="td 59"></td>
+                                <td class="td 60"></td>
+                                <td class="td 61"></td>
+                                <td class="td 62"></td>
+                                <td class="td 63"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 64"></td>
+                                <td class="td 65"></td>
+                                <td class="td 66"></td>
+                                <td class="td 67"></td>
+                                <td class="td 68"></td>
+                                <td class="td 69"></td>
+                                <td class="td 70"></td>
+                                <td class="td 71"></td>
+                                <td class="td 72"></td>
+                            </tr>
+                            <tr>
+                                <td class="td 73"></td>
+                                <td class="td 74"></td>
+                                <td class="td 75"></td>
+                                <td class="td 76"></td>
+                                <td class="td 77"></td>
+                                <td class="td 78"></td>
+                                <td class="td 79"></td>
+                                <td class="td 80"></td>
+                                <td class="td 81"></td>
+                            </tr>
+                        </table>
+-->
+                    </div>
+                </div>
+            </div>    
+          </div>           
+      </section>    
+      
+      
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/javascript.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    
+  </body>
+</html>
